@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0035C1BC145A4B6F00C878D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0035C1BB145A4B6F00C878D9 /* README.md */; };
 		009A697D145A486E006C5221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A697C145A486E006C5221 /* UIKit.framework */; };
 		009A697F145A486E006C5221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A697E145A486E006C5221 /* Foundation.framework */; };
 		009A6981145A486E006C5221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A6980145A486E006C5221 /* CoreGraphics.framework */; };
@@ -18,17 +19,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0035C1BB145A4B6F00C878D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		009A6978145A486E006C5221 /* searchDisplayControllerTintIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchDisplayControllerTintIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A697C145A486E006C5221 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		009A697E145A486E006C5221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		009A6980145A486E006C5221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		009A6984145A486E006C5221 /* searchDisplayControllerTintIssue-Info.plist */ = {isa = PBXFileReference; path = "searchDisplayControllerTintIssue-Info.plist"; sourceTree = "<group>"; };
+		009A6984145A486E006C5221 /* searchDisplayControllerTintIssue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "searchDisplayControllerTintIssue-Info.plist"; sourceTree = "<group>"; };
 		009A6986145A486E006C5221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		009A6988145A486E006C5221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		009A698A145A486E006C5221 /* searchDisplayControllerTintIssue-Prefix.pch */ = {isa = PBXFileReference; path = "searchDisplayControllerTintIssue-Prefix.pch"; sourceTree = "<group>"; };
-		009A698B145A486E006C5221 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		009A698A145A486E006C5221 /* searchDisplayControllerTintIssue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "searchDisplayControllerTintIssue-Prefix.pch"; sourceTree = "<group>"; };
+		009A698B145A486E006C5221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		009A698C145A486E006C5221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		009A698E145A486E006C5221 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		009A698E145A486E006C5221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		009A698F145A486E006C5221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		009A6992145A486E006C5221 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				009A698E145A486E006C5221 /* ViewController.h */,
 				009A698F145A486E006C5221 /* ViewController.m */,
 				009A6991145A486E006C5221 /* ViewController.xib */,
+				0035C1BB145A4B6F00C878D9 /* README.md */,
 				009A6983145A486E006C5221 /* Supporting Files */,
 			);
 			path = searchDisplayControllerTintIssue;
@@ -151,6 +154,7 @@
 			files = (
 				009A6987145A486E006C5221 /* InfoPlist.strings in Resources */,
 				009A6993145A486E006C5221 /* ViewController.xib in Resources */,
+				0035C1BC145A4B6F00C878D9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +212,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -225,7 +229,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -273,6 +277,7 @@
 				009A6998145A486E006C5221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
