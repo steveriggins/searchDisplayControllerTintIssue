@@ -12,3 +12,8 @@ If you run this project on a 5.0 iPhone or Simulator, the right search bar looks
 UISearchBars with no tint look the same on both OSes regardless of being connected to a UISearchDisplayController or not.
 
 Is this a bug in iOS 5?
+
+Things Tried
+============
+
+1) Tried setting the tint in code - That did not change the test, so I left it out of this example
