@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0035C1BC145A4B6F00C878D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0035C1BB145A4B6F00C878D9 /* README.md */; };
 		009A697D145A486E006C5221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A697C145A486E006C5221 /* UIKit.framework */; };
 		009A697F145A486E006C5221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A697E145A486E006C5221 /* Foundation.framework */; };
 		009A6981145A486E006C5221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A6980145A486E006C5221 /* CoreGraphics.framework */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0035C1BB145A4B6F00C878D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		009A6978145A486E006C5221 /* searchDisplayControllerTintIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchDisplayControllerTintIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A697C145A486E006C5221 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		009A697E145A486E006C5221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,7 +82,6 @@
 				009A698E145A486E006C5221 /* ViewController.h */,
 				009A698F145A486E006C5221 /* ViewController.m */,
 				009A6991145A486E006C5221 /* ViewController.xib */,
-				0035C1BB145A4B6F00C878D9 /* README.md */,
 				009A6983145A486E006C5221 /* Supporting Files */,
 			);
 			path = searchDisplayControllerTintIssue;
@@ -154,7 +151,6 @@
 			files = (
 				009A6987145A486E006C5221 /* InfoPlist.strings in Resources */,
 				009A6993145A486E006C5221 /* ViewController.xib in Resources */,
-				0035C1BC145A4B6F00C878D9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
